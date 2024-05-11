@@ -1,0 +1,72 @@
+Arguments: 
+  /private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/external/nodejs.20.10.0.toolchain.install/node-v20.10.0-darwin-arm64/bin/node /private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/bin/yarn.js install --ignore-scripts
+
+PATH: 
+  /private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/external/pnpm.8.10.2.toolchain.install/file:/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/.pnpm:/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/bin:/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/.vendor/node_modules:/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/sandbox/darwin-sandbox/1/execroot/endorctl.profile.workspace.coujsfcldh5i03qfei00/external/nodejs.20.10.0.toolchain.install/node-v20.10.0-darwin-arm64/bin:/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/bazelisk/downloads/sha256/93772ce53afbe2282d0d727137a19c835eaa6f328964d02024bf3c234993bf7b/bin:/opt/homebrew/share/google-cloud-sdk/bin:/Users/sibi/endorworkspace/go/src/github.com/endorlabs/monorepo/bazel-monorepo/external/go_sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/Applications/VMware Fusion.app/Contents/Public:/Users/sibi/endorworkspace/go/src/github.com/endorlabs/monorepo/bazel-monorepo/external/go_sdk/bin:/Users/sibi/Library/pnpm:/opt/homebrew/share/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/sibi/.cargo/bin:/Users/sibi/endorworkspace/go/bin/:/Users/sibi/endorworkspace/go/bin/
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@pnpmtests%2futil: Not found
+      at params.callback [as _callback] (/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/lib/cli.js:66145:18)
+      at self.callback (/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/private/var/folders/ly/t0s43x0s4lv0msw47wd4n17c0000gn/T/endorctl.bazel.generator.1398396214/endorctl.profile.workspace.coujsfcldh5i03qfei00/.output-base/external/yarn.1.22.19.toolchain.install/yarn-v1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1589:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "pnpmworkspace_it",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/endorlabs/js-integration-tests.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/endorlabs/js-integration-tests/issues"
+    },
+    "homepage": "https://github.com/endorlabs/js-integration-tests#readme",
+    "dependencies": {
+      "semver": "6.0.0",
+      "@pnpmtests/util": "workspace:*"
+    },
+    "devDependencies": {
+      "@babel/highlight": "~7.0.0"
+    },
+    "peerDependencies": {
+      "chalk": "^2.4.2"
+    },
+    "pnpm": {
+      "overrides": {
+        "chalk": "3.0.0"
+      }
+    },
+    "engines": {
+      "pnpm": ">=3.0.0 <11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
